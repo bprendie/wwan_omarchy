@@ -86,3 +86,7 @@ Bash
 
 cat /etc/NetworkManager/system-connections/Google\ Fi\ H2G2.nmconnection
 This ensures that the APN setting persists across reboots. If the connection fails after a reboot, the most likely culprit is the FCC lock state (Section 1.B). If that occurs, refer to the Arch Wiki on Mobile broadband modem#FCC locking for persistent solutions like a systemd service or udev rule.
+
+## WEAZL and WE4ZL branding
+
+Forking or reusing code does not grant permission to brand or market your own product with the WEAZL™ or WE4ZL™ wordmarks or the weazl head logo. See the [trademark and artwork notice](TRADEMARKS.md).
