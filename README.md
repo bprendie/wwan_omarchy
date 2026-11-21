@@ -1,5 +1,10 @@
 # 📡 Arch Linux Mobile Broadband Setup: ThinkPad X13 (Quectel) & Google Fi (h2g2)
 
+## WEAZL and WE4ZL branding
+
+Forking or reusing code does not grant permission to brand or market your own product with the WEAZL™ or WE4ZL™ wordmarks or the weazl head logo. See the [trademark and artwork notice](TRADEMARKS.md).
+
+
 This guide documents the configuration steps for establishing a persistent mobile broadband connection on Arch Linux using a ThinkPad X13 with a Quectel MBIM modem, specifically targeting the **Google Fi** service with its required Access Point Name (APN).
 
 This process uses **ModemManager** and **NetworkManager** via the command-line utility `nmcli`, focusing on direct configuration vectors.
@@ -86,7 +91,3 @@ Bash
 
 cat /etc/NetworkManager/system-connections/Google\ Fi\ H2G2.nmconnection
 This ensures that the APN setting persists across reboots. If the connection fails after a reboot, the most likely culprit is the FCC lock state (Section 1.B). If that occurs, refer to the Arch Wiki on Mobile broadband modem#FCC locking for persistent solutions like a systemd service or udev rule.
-
-## WEAZL and WE4ZL branding
-
-Forking or reusing code does not grant permission to brand or market your own product with the WEAZL™ or WE4ZL™ wordmarks or the weazl head logo. See the [trademark and artwork notice](TRADEMARKS.md).
